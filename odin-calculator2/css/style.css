@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+* {
+    font-family: 'Lora', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    background-color: rgb(243, 237, 237);
+}
+
+
+
+.calculator-template {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+    width: 430px;
+    height: 650px;
+    background-color: rgb(172, 141, 141);
+}
+
+
+.grid-keypad {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4, 100px);
+    gap: 5px;
+
+}
+
+.interface {
+    background: #fff;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-key {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+}
+
+
